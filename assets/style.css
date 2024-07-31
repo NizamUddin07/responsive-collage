@@ -33,3 +33,22 @@ img{
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
 }
+
+
+@media screen and (max-width:576px) {
+    .main-sec{
+        flex-direction: column;
+        height: auto;
+    }
+    .footer-sec{
+        flex-direction: column;
+        height: auto;
+    }
+    .footer-sec>div{
+        flex-direction: column;
+        height: auto;
+    }
+    .squire-collage{
+        grid-template-columns: 1fr;
+    }
+}
